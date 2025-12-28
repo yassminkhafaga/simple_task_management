@@ -51,4 +51,4 @@ Pagination
 Login Page: ![Login](screenshots/login.png)
 Register Page: ![Register](screenshots/register.png)
 Tasks Page: ![Tasks](screenshots/task1.png)
-Tasks Page: ![Tasks](screenshots/task1.png)"# simple_task_management" 
+Tasks Page: ![Tasks](screenshots/task2.png)"# simple_task_management" 
