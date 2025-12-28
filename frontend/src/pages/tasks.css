@@ -1,0 +1,136 @@
+body {
+  background-color: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.logout {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.add-task-card {
+  margin-bottom: 30px;
+}
+
+.add-task-card h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button.primary {
+  margin-top: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button.primary:hover {
+  background-color: #2980b9;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #bdc3c7;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.task.pending {
+  border-color: #f1c40f;
+  background-color: #fff9e5;
+}
+
+.task.in_progress {
+  border-color: #3498db;
+  background-color: #eaf3fd;
+}
+
+.task.done {
+  border-color: #2ecc71;
+  background-color: #eafbe7;
+}
+
+.task-details {
+  flex: 1;
+}
+
+.task-details h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.task-details p {
+  margin: 5px 0 0 0;
+  color: #7f8c8d;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
